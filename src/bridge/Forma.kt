@@ -11,6 +11,6 @@ open class Forma {
     }
 
     fun imprimirCodigoCor() {
-        cor!!.imprimirCodigoCor()
+        (cor ?: return).imprimirCodigoCor()
     }
 }

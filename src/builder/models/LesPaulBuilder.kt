@@ -1,10 +1,11 @@
 package builder.models
 
 import builder.GuitarBuilder
+
 /*
 Created by Dhionatã on 2/7/2022
 */
-class LesPaulBuilder() : GuitarBuilder() {
+class LesPaulBuilder : GuitarBuilder() {
     override fun buildpPickups() {
         guitar.pickups = "Hambucker"
     }

@@ -4,7 +4,6 @@ import abstractFactory.ingredientes.Hamburguer
 import abstractFactory.ingredientes.Maionese
 import abstractFactory.ingredientes.Pao
 import abstractFactory.xTudoTipos.XTudoIngredientesFactory
-import abstractFactory.xTudoTipos.XTudo as XTudo1
 
 /*
 Created by Dhionatã on 05/02/2022

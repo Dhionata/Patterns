@@ -60,7 +60,7 @@ object TesteCliente {
             if (clientesCopias[i] is ClientePF) {
                 novoCliPF = clientesCopias[i] as ClientePF
                 println("Nome antigo: " + novoCliPF.nome)
-                novoCliPF.nome = novoCliPF.nome?.toUpperCase()
+                novoCliPF.nome = novoCliPF.nome?.uppercase(Locale.getDefault())
                 /* String[] partes = novoCliPF.getCpf().split(".");
                 System.out.println(partes.length);
                 //subpart = partes[].split("-");

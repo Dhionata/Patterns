@@ -5,7 +5,7 @@ import builder.GuitarBuilder
 /*
 Created by Dhionatã on 2/7/2022
 */
-class StratocasterBuilder() : GuitarBuilder() {
+class StratocasterBuilder : GuitarBuilder() {
     override fun buildpPickups() {
         guitar.pickups = "Single-Coil"
     }
