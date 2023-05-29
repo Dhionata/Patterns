@@ -1,16 +1,13 @@
-package bridge
+package kt.bridge
 
 import java.util.*
 
 abstract class Categoria {
-    var id: Int = 0
-    var descricao: String = ""
-    var taxaDesconto: Float = 0f
-    var beneficios: LinkedList<String>
+    private var id = 0
+    private var descricao: String? = null
+    private var taxaDesconto = 0f
+    var beneficios: LinkedList<String> = LinkedList()
 
-    fun setBeneficio(beneficios: LinkedList<String>) {
-        this.beneficios = beneficios
-    }
 
     fun addBeneficio(beneficio: String) {
         beneficios.add(beneficio)
@@ -25,7 +22,4 @@ abstract class Categoria {
                 "benefícios : $beneficios }"
     }
 
-    init {
-        beneficios = LinkedList()
-    }
 }

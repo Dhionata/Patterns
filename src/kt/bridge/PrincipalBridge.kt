@@ -1,6 +1,6 @@
-package bridge
+package kt.bridge
 
-import prototype.ClientePF
+import kt.prototype.ClientePF
 
 fun main() {
     //cadastro
